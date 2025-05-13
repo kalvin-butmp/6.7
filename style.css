@@ -224,3 +224,19 @@ footer .copyright {
 #next-button {
   right: -60px;
 }
+
+/* --- Logo cliquable --- */
+.logo-link-container {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.centered-logo {
+  width: 150px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.centered-logo:hover {
+  transform: scale(1.1);
+}
